@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One pager</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/img/logo.png">
+</head>
+<body>
+<header>
+    <img id="logo" src="assets/img/logo.png" alt="logo">
+
+    <img id="burger" src="assets/icon/MainMenu.svg" alt="burger-menu">
+    <script src="assets/js/burger.js"></script>
+    <script src="assets/js/navbar.js"></script>
+
+    <nav>
+        <a href="#banner" id="1" onclick="chcl1()" class="navbar-btn">HOME</a>
+        <a href="#about" id="2"  onClick="chcl2()" class="navbar-btn">ABOUT</a>
+        <a href="#work" id="3" onclick="chcl3()" class="navbar-btn">WORK</a>
+        <a href="#work_process" id="4" onclick="chcl4()" class="navbar-btn">PROCESS</a>
+        <a href="#services" id="5" onclick="chcl5()" class="navbar-btn">SERVICES</a>
+        <a href="#testimonials" id="6" onclick="chcl6()" class="navbar-btn">TESTIMONIALS</a>
+        <a href="#contact_form" id="7" onclick="chcl7()" class="navbar-btn">CONTACT</a>
+    </nav>
+</header>
+<section id="banner">
+    <div id="banner-content">
+        <h1>We Design and Develop</h1><br><br>
+        <p>We are a bew design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p><br>
+        <a href="#contact_form">CONTACT US</a>
+    </div>
+</section>
+<section id="about">
+    <h2>About Us</h2><br>
+    <p>Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.</p>
+    <img src="assets/img/signature.png" alt="Signature">
+</section>
+<section id="skills" class="container">
+
+    <div id="skills-content">
+        <h2>Professional Skills</h2>
+        
+        <b>UI/UX DESIGN <span class="percentage">75%</span></b> <br>
+        <div class="bar-border">
+           <div class="barUI"></div>
+           <div class="meter">
+           <span style="width:75%;"><span class="progress" id="animation"></span></span>
+          </div>
+        </div>
+
+        <b>WEB DEVELOPEMENT <span class="percentage">90%</span></b><br>
+        <div class="bar-border">
+          <div class="meter">
+          <span style="width:90%;"><span class="progress"></span></span>
+        </div>
+        </div>
+
+        <b>MARKETING <span class="percentage">65%</span></b>
+        <div class="bar-border">
+          <div class="meter">
+          <span style="width:65%;"><span class="progress"></span></span>
+        </div>
+        </div>
+    </div>
+
+    <img id="skills-image" src="assets/img/skills.jpg" alt="skills">
+
+</section>
+<section id="numbers">
+    <div class="container">
+        <div class="numbers-item">
+            <img src="assets/icon/folder.svg" alt="folder">
+            <div class="numbers-item-content">
+                <p>548</p>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+        </div>
+        <div class="numbers-item">
+            <img src="assets/icon/clock.svg" alt="clock">
+            <div class="numbers-item-content">
+                <p>1465</p>
+                <p>WORKING HOURS</p>
+            </div>
+        </div>
+        <div class="numbers-item">
+            <img src="assets/icon/star-white.svg" alt="white_star">
+            <div class="numbers-item-content">
+                <p>612</p>
+                <p>POSITIVE FEEDBACKS</p>
+            </div>
+        </div>
+        <div class="numbers-item">
+            <img src="assets/icon/Heart.svg" alt="heart">
+            <div class="numbers-item-content">
+                <p>735</p>
+                <p>HAPPY CLIENTS</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="work">
+
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <div class="work-item"><div class="work-hover"></div></div>
+    <p>LOAD MORE WORK</p>
+
+</section>
+<section id="work_process">
+
+    <h2>Our Work Process</h2>
+    Was years it seasons was there form he in them togther over that, <br>
+    third sixth gathered female creeping bearing behold years.
+
+    <div id="video-container">
+        <video id="video" poster="assets/img/videoFrame.png">
+            <source src="assets/video/video2.mp4" type="video/mp4">
+        </video>
+        <div id="play-btn" onclick="playVideo()">
+            <div id="circle"><div id="play_arrow">></div></div>
+        </div>
+    </div>
+    <script src="assets/js/video.js"></script>
+
+</section>
+<section id="services">
+    <div class="services-item">
+        <img src="assets/icon/diamond.svg" alt="diamond">
+        <b>UI / UX DESIGN</b>
+        <p>Be set fourth land god darkness</br> make it wherein own</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/arc.svg" alt="arc">
+        <b>WEB DEVELOPMENT</b>
+        <p>A she'd them bring void moving</br> third she'd kind fill</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/phone.svg" alt="phone">
+        <b>APP / MOBILE</b>
+        <p>Dominion man second spirit he,</br> earth they're creeping</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/pad.svg" alt="pad">
+        <b>GAME DESIGN</b>
+        <p>Morning his saying moveth it</br> multiply appear life be</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/plane.svg" alt="plane">
+        <b>SEO / MARKETING</b>
+        <p>Give won't after land fill creeping</br> meat you, may</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/star.svg" alt="star">
+        <b>PHOTOGRAPHY</b>
+        <p>Creepeth one seas cattle grass</br> give moving saw give</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/magic-wand.svg" alt="wand">
+        <b>GRAPHIC DESIGN</b>
+        <p>Open, great whales air rule for,</br> fourth life whales</p>
+    </div>
+    <div class="services-item">
+        <img src="assets/icon/paint-bucket.svg" alt="bucket">
+        <b>ILLUSTRATIONS</b>
+        <p>Whales likeness hath. man kind</br> for them air two won't</p>
+    </div>
+
+</section>
+<section id="testimonials">
+    <script src="assets/js/slider.js"></script>
+    <h2 class="sliderText">"We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success."
+        <br> <span>Arianna Huffington</span>
+    </h2>
+
+    <h2 class="sliderText">"Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.
+        <br> <span>MICHAEL HOPKINS</span>
+    </h2>
+
+    <h2 class="sliderText">"Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles begins with a single step."
+        <br> <span>Lao Tzu</span>
+    </h2>
+
+        <ul>
+            <li id="0" class="slideButton" onclick="slider(event)"></li>
+            <li id="1" class="slideButton active" onclick="slider(event)"></li>
+            <li id="2" class="slideButton" onclick="slider(event)"></li>
+        </ul>
+</section>
+<div id="clients">
+    <img src="assets/img/handmade.png" alt="Handmade" class="clients-item">
+    <img src="assets/img/mountain.png" alt="Mountain" class="clients-item">
+    <img src="assets/img/collection.png" alt="Collection" class="clients-item">
+    <img src="assets/img/mountaionbike.png" alt="MountainBike" class="clients-item">
+    <img src="assets/img/handmade.png" alt="Handmade" class="clients-item">
+</div>
+<section id="contact_form">
+    <h2>Need a Project?</h2><br>
+    <p>Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+    <form action="">
+        <input id="name" type="text" name="name" placeholder="Your Name">
+        <input id="email" type="text" name="email" placeholder="Your Email"> <br>
+        <input id="title" type="text" name="title" placeholder="Your Title"> <br>
+        <textarea id="comment" name="comment" placeholder="Your Comment"></textarea> <br>
+        <button id="send" type="send">SEND MESSAGE</button>
+    </form>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer-item">
+            <b>Piroll Design, Inc.</b>
+            <p>&copy 2017 Piroll. All rights reserved. Designed by robiruk.</p>
+        </div>
+        <div class="footer-item">
+            hello@pirolltheme.com <br>
+            +44 987 065 908
+        </div>
+        <div class="footer-item">
+            <a href="#">Projects</a>
+            <a href="#about">About</a>
+            <a href="#">Services</a>
+            <a href="#">Carreer</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.interia.pl/">News</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+            <a href="#">Legals</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.facebook.com" target="blank">Facebook</a>
+            <a href="https://twitter.com" target="blank">Twitter</a>
+            <a href="https://www.instagram.com" target="blank">Instagram</a>
+            <a href="https://dribbble.com" target="blank">Dribble</a>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
